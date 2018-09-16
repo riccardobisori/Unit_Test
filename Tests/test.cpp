@@ -25,8 +25,8 @@ namespace {
     class ClassDeclaration : public testing::Test {
     public:
         BitmapImage<GrayPixel> obj; //qua crei gli oggetti
-        int w = 3;  //nel test creo la matrice di Laplace e si prova con l' EdgeDetection
-        int h = 3;
+        int w = 5;  //nel test creo la matrice di Laplace e si prova con l' EdgeDetection
+        int h = 5;
         Filter *filter;
 
         ClassDeclaration() {
